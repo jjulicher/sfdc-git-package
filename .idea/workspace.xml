@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99aa5f83-502d-4f11-881c-43b3d744f26d" name="Default" comment="Remove git module.">
+    <list default="true" id="99aa5f83-502d-4f11-881c-43b3d744f26d" name="Default" comment="Fix issue with packageConstructor.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cleanUpRepo.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cleanUpRepo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gitDiffHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gitDiffHandler.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,19 +70,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cli" value="112" />
-          <entry key="es6" value="405" />
-          <entry key="js" value="771" />
+          <entry key="cli" value="121" />
+          <entry key="es6" value="848" />
+          <entry key="js" value="949" />
           <entry key="properties" value="3" />
-          <entry key="txt" value="344" />
+          <entry key="txt" value="592" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="831" />
-          <entry key="PLAIN_TEXT" value="396" />
+          <entry key="JavaScript" value="1017" />
+          <entry key="PLAIN_TEXT" value="645" />
           <entry key="Properties" value="3" />
-          <entry key="Scratch" value="405" />
+          <entry key="Scratch" value="848" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -93,7 +93,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cleanUpRepo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -120,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/gitDiffHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+            <state relative-caret-position="207">
+              <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -137,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="69" />
+            <state relative-caret-position="136">
+              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="41" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -146,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/packageConstructor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="125">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -164,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/cli">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -198,13 +198,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/readSObject.js" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
-        <option value="$PROJECT_DIR$/lib/packageConstructor.js" />
-        <option value="$PROJECT_DIR$/bin/cli" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.es6" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.es6" />
         <option value="$PROJECT_DIR$/lib/utils/metadata.js" />
-        <option value="$PROJECT_DIR$/lib/gitDiffHandler.js" />
         <option value="$PROJECT_DIR$/lib/cleanUpRepo.js" />
+        <option value="$PROJECT_DIR$/bin/cli" />
+        <option value="$PROJECT_DIR$/lib/packageConstructor.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.es6" />
+        <option value="$PROJECT_DIR$/lib/gitDiffHandler.js" />
       </list>
     </option>
   </component>
@@ -310,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.scratch_1.es6">
+  <component name="RunManager" selected="Node.js.scratch.es6">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -347,8 +347,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.scratch_1.es6" />
         <item itemvalue="Node.js.scratch.es6" />
+        <item itemvalue="Node.js.scratch_1.es6" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +372,7 @@
       <workItem from="1536108041530" duration="1428000" />
       <workItem from="1536112505196" duration="4242000" />
       <workItem from="1536123239396" duration="187000" />
-      <workItem from="1536126445128" duration="6886000" />
+      <workItem from="1536126445128" duration="10646000" />
     </task>
     <task id="LOCAL-00001" summary="Update diff handler to be more accurate.">
       <created>1533099956829</created>
@@ -444,21 +444,63 @@
       <option name="project" value="LOCAL" />
       <updated>1536146256410</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="remove requirement for config.name&#10;remove logging of name in cleanUpRepo.js">
+      <created>1536149960597</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1536149960597</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix issue with packageConstructor.">
+      <created>1536150129833</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1536150129833</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Alter condition for filter.">
+      <created>1536150443714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536150443714</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update to filter of files.">
+      <created>1536151751087</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536151751087</updated>
+    </task>
+    <task id="LOCAL-00015" summary="remove debug logging.">
+      <created>1536151894971</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536151894971</updated>
+    </task>
+    <task id="LOCAL-00016" summary="change name -&gt; package for cli conflict.">
+      <created>1536152379919</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536152379919</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47532000" />
+    <option name="totallyTimeSpent" value="51292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
       <window_info id="Designer" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32952183" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.5064516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,7 +512,7 @@
       <window_info anchor="bottom" id="SOQL Query" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49573562" weight="0.26611227" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5042644" side_tool="true" weight="0.51871103" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.2532258" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.2532258" />
       <window_info anchor="bottom" id="Anonymous Apex" order="15" />
       <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.49946696" visible="true" weight="0.32952183" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -480,6 +522,33 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24357034" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Favorites" order="7" weight="0.32939914" />
+      <window_info anchor="bottom" id="Structure" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Log Viewer" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SOQL Query" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49573562" weight="0.26611227" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5042644" side_tool="true" weight="0.51871103" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.2532258" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.49946696" visible="true" weight="0.32952183" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -523,7 +592,13 @@
     <MESSAGE value="Update files to add logging and simplify aura name." />
     <MESSAGE value="Add support for standard sites." />
     <MESSAGE value="Remove git module." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove git module." />
+    <MESSAGE value="remove requirement for config.name&#10;remove logging of name in cleanUpRepo.js" />
+    <MESSAGE value="Fix issue with packageConstructor." />
+    <MESSAGE value="Alter condition for filter." />
+    <MESSAGE value="Update to filter of files." />
+    <MESSAGE value="remove debug logging." />
+    <MESSAGE value="change name -&gt; package for cli conflict." />
+    <option name="LAST_COMMIT_MESSAGE" value="change name -&gt; package for cli conflict." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Account.object">
@@ -577,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -605,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/cli">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/fileUtils.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -622,24 +683,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cleanUpRepo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/cli">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/packageConstructor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="125">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="41" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gitDiffHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cleanUpRepo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="207">
+          <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
         </state>
       </provider>
     </entry>
