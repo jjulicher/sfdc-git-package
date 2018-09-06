@@ -19,8 +19,8 @@
   "author": "Sebastien Colladon <colladonsebastien@gmail.com>",
   "dependencies": {
     "commander": "2.9.0",
-    "xmlbuilder": "~2.6.1",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "xmlbuilder": "^10.0.0"
   },
   "license": "MIT"
 }
