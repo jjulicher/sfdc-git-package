@@ -10,6 +10,7 @@ module.exports = function(config, logger) {
     || typeof config.from === 'undefined' || config.from === null
     || typeof config.apiVersion === 'undefined' || config.apiVersion === null
     || typeof config.output === 'undefined' || config.output === null
+    || typeof config.package === 'undefined' || config.package === null
     || typeof config.repo === 'undefined' || config.repo === null) {
       logger('Not enough config options');
       return;
